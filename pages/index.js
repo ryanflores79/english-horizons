@@ -4,14 +4,12 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
-import PriceTable from "../components/elements/PriceTable";
+import GetStartedModal from "../components/elements/GetStartedModal";
 import Layout from "../components/layout/Layout";
-const ModalVideo = dynamic(import("react-modal-video"), {
-    ssr: false,
-});
 
 function Home() {
-    const [isOpen, setOpen] = useState(false);
+    const [modalFormOpen, setModalFormOpen] = useState(false);
+
     return (
         <>
             <Layout>
@@ -23,8 +21,8 @@ function Home() {
                                     <h1 className="text-display-2 color-white">Gain Confidence in English</h1>
                                     <p className="text-body-lead-large color-white mt-30 pr-40">Online or In-Person English classes & teachers for private and group lessons</p>
                                     <div className="mt-40">
-                                        <Link href="/page-about-1"><a className="btn btn-pink icon-arrow-right-white text-heading-6">Get Started
-                                        </a></Link>
+                                        <button onClick={() => setModalFormOpen(true)} className="btn btn-pink icon-arrow-right-white text-heading-6">Get Started
+                                        </button>
                                     </div>
                                     <div className="mt-60">
                                         <div className="row">
@@ -122,8 +120,8 @@ function Home() {
                                 <h3 className="text-heading-1 mt-30">Don’t take our word for it. See what our clients say.</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
                                 <div className="mt-40">
-                                    <Link href="/page-about-1"><a className="btn btn-default btn-white icon-arrow-right">Learn More
-                                    </a></Link>
+                                  <button onClick={() => setModalFormOpen(true)} className="btn btn-default btn-white icon-arrow-right">Learn More
+                                  </button>
                                 </div>
                             </div>
                             <div className="col-lg-7">
@@ -173,93 +171,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-40">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Discover powerful features to<br className="d-lg-block d-none" />boost your productivity</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                            </div>
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-90 mb-lg-100">
-                        <div className="row">
-                            <div className="col-lg-6 col-sm-12">
-                                <div className="bg-2 box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                    <h4 className="text-heading-4 color-gray-900 mb-15">Cross-Platform</h4>
-                                    <p className="text-body-text-md color-gray-600">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                                    <div className="box-image-inner bg-color-1"><img src="/assets/imgs/page/homepage2/temp-1.png" alt="English Horizons" /></div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-sm-12">
-                                <div className="bg-6 box-square hover-up wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <h4 className="text-heading-4 color-gray-900 mb-15">Extremely Flexible</h4>
-                                    <p className="text-body-text-md color-gray-600">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
-                                    <div className="box-image-inner bg-color-2"><img src="/assets/imgs/page/homepage2/temp-2.png" alt="English Horizons" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section-box mt-70">
-                    <div className="container mt-50">
-                        <h3 className="text-heading-1 text-center mb-10">Choose The Best Plan<br className="d-lg-block d-none" />That’s For You</h3>
-                    </div>
-                    <PriceTable/>
-                </section>
-                <section className="section-box">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-8">
-                                <h3 className="text-heading-1 mb-10">Latest News</h3>
-                                <p className="text-body-lead-large color-gray-600">From Our blog and Event fanpage</p>
-                            </div>
-                            <div className="col-lg-4 text-lg-end text-start pt-30">
-                                <Link href="/blog-1"><a className="btn btn-black icon-arrow-right-white">View More
-                                </a></Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-90">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Company</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">We can blend colors multiple ways, the most common
-                                    </a></Link>
 
-                                    <div className="grid-4-img">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-1.png" alt="English Horizons" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Marketing Event</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">How To Blow Through Capital At An Incredible Rate
-                                    </a></Link>
-
-                                    <div className="grid-4-img">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-2.png" alt="English Horizons" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12 pr-30">
-                                <div className="card-grid-style-4"><span className="tag-dot">Customer Services</span>
-                                    <Link href="/blog-single"><a className="text-heading-4">Design Studios That Everyone Should Know About?
-                                    </a></Link>
-
-                                    <div className="grid-4-img color-bg-4">
-                                        <Link href="/blog-single"><a><img src="/assets/imgs/page/homepage1/img-news-3.png" alt="English Horizons" />
-                                        </a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
@@ -267,9 +179,9 @@ function Home() {
                                 <div className="bg-6 box-newsletter position-relative">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
-                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe our newsletter</h4>
+                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe to our newsletter</h4>
                                             <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
-                                            <Link href="/page-terms"><a>Term &amp; Conditions
+                                            <Link href="/page-terms"><a>Terms &amp; Conditions
                                             </a></Link>
 
                                             <div className="box-form-newsletter mt-30">
@@ -285,13 +197,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <ModalVideo
-                    channel="youtube"
-                    autoplay
-                    isOpen={isOpen}
-                    videoId="7e90gBu4pas"
-                    onClose={() => setOpen(false)}
-                />
+                <GetStartedModal isOpen={modalFormOpen} toggle={() => setModalFormOpen(false)} />
             </Layout>
 
         </>
