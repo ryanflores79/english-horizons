@@ -27,16 +27,16 @@ function Home() {
                                     <div className="mt-60">
                                         <div className="row">
                                             <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">5000+</h3>
-                                                <p className="text-body-normal color-gray-300">Happy Clients</p>
+                                                <h3 className="text-heading-2 color-white mb-15"></h3>
+                                                <p className="text-body-normal color-gray-300">In Person & Virtual Learning</p>
                                             </div>
                                             <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">756+</h3>
-                                                <p className="text-body-normal color-gray-300">Project Done</p>
+                                                <h3 className="text-heading-2 color-white mb-15"></h3>
+                                                <p className="text-body-normal color-gray-300">One on One Lessons & Group Classes</p>
                                             </div>
                                             <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">100%</h3>
-                                                <p className="text-body-normal color-gray-300">Client Satisfaction</p>
+                                                <h3 className="text-heading-2 color-white mb-15"></h3>
+                                                <p className="text-body-normal color-gray-300">IELTS & TOEFL Exam Prep</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,20 +93,20 @@ function Home() {
                             <div className="col-lg-6 col-sm-12 block-img-we-do">
                                 <div className="inner-image"><img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-2.png" alt="English Horizons" /></div>
                             </div>
-                            <div className="col-lg-6 col-sm-12 block-we-do-2"><span className="tag-1 color-orange-900">What We Do, What You Get</span>
-                                <h3 className="text-heading-1 mt-30">The intelligent way to manage projects</h3>
+                            <div className="col-lg-6 col-sm-12 block-we-do-2"><span className="tag-1 color-orange-900"></span> 
+                                <h3 className="text-heading-1 mt-30">Helping you achieve your goals</h3>
                                 <div className="list-icons mt-50">
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-work.svg" alt="English Horizons" /></span>
-                                        <h4 className="text-heading-4">Work smarter with powerful features</h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                        <h4 className="text-heading-4">About English Horizions</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">English Horizons is an English Language Educational Institute that specializes in helping non-native English speakers achieve greater English fluency. We offer group classes, one on one sessions, and both in-person and virtual learning.</p>
                                     </div>
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-design.svg" alt="English Horizons" /></span>
-                                        <h4 className="text-heading-4">Designed for teams of all sorts and sizes</h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                        <h4 className="text-heading-4">Meet Ken Rogers</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">Our founder, Ken Rogers is a native English speaker who has a passion for helping students from all over the world. He holds a bachelor's degree in Political Theory from the University of California San Diego, and he studied Law at Thomas Jefferson School of Law.</p>
                                     </div>
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-advance.svg" alt="English Horizons" /></span>
-                                        <h4 className="text-heading-4">Advanced analytics to grow your business</h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                        <h4 className="text-heading-4">IELTS and TOEFL Exam Prep</h4>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">Receive focused instruction on all four modules (listening, reading, writing, speaking)</p>
                                     </div>
                                 </div>
                             </div>
@@ -116,11 +116,11 @@ function Home() {
                 <section className="section-box pt-100 pb-100 mt-100 mb-80 bg-6">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 mb-30"><span className="tag-1 bg-9 color-gray-900">Built Exclusively For You</span>
-                                <h3 className="text-heading-1 mt-30">Don’t take our word for it. See what our clients say.</h3>
-                                <p className="text-body-lead-large color-gray-600 mt-30">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                            <div className="col-lg-5 mb-30"><span className="tag-1 bg-9 color-gray-900">Satisfaction Guaranteed</span>
+                                <h3 className="text-heading-1 mt-30">Reviews from our former students!</h3>
+                                <p className="text-body-lead-large color-gray-600 mt-30">See what some of our students had to say about English Horizons</p>
                                 <div className="mt-40">
-                                  <button onClick={() => setModalFormOpen(true)} className="btn btn-default btn-white icon-arrow-right">Learn More
+                                  <button onClick={() => setModalFormOpen(true)} className="btn btn-default btn-white icon-arrow-right">Join Now!
                                   </button>
                                 </div>
                             </div>
@@ -128,41 +128,41 @@ function Home() {
                                 <div className="row" data-masonry="{&quot;percentPosition&quot;: true }">
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"No matter where you go, It's is the coolest, most happening thing around! Not able to tell you how happy I am with it. "</p>
+                                            <p className="text-body-text color-gray-600 text-comment">“The biggest challenge for me a student is English. So, I registered for this English course to develop my language skills, namely listening and speaking in order to pass my IELTS exam"</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-1.png" alt="English Horizons" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
+                                                <p className="text-body-text-md">Passed the IELTS Exam.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"Wow what great service, I love it! It's is the most valuable business resource we have EVER purchased. We can't understand how we've been living without it. I couldn't have asked for more than this."</p>
+                                            <p className="text-body-text color-gray-600 text-comment">“I am Sarah, a university student from Morocco and an Arabic language teacher. I got acquainted with our good professor Ken, who helped me a lot in progressing, understanding, and improving English pronunciation."</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-2.png" alt="English Horizons" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
-                                                <p className="text-body-text-md">Krusty Krab</p>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Sarah</h4>
+                                                <p className="text-body-text-md">Former Student</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business. Needless to say we are extremely satisfied with the results. "</p>
+                                            <p className="text-body-text color-gray-600 text-comment">“This course is second to none since it shows professionalism in everything being done throughout the whole class"</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-3.png" alt="English Horizons" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
+                                                <p className="text-body-text-md">English Student</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"It's is both attractive and highly adaptable. It's exactly what I've been looking for. Definitely worth the investment."</p>
+                                            <p className="text-body-text color-gray-600 text-comment">“Mr ken is the best English teacher in the world”</p>
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-4.png" alt="English Horizons" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
-                                                <p className="text-body-text-md">Soylent Corp</p>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
+                                                <p className="text-body-text-md">Passed the TOEFL Exam</p>
                                             </div>
                                         </div>
                                     </div>
@@ -178,14 +178,13 @@ function Home() {
                             <div className="col-lg-10 mx-auto">
                                 <div className="bg-6 box-newsletter position-relative">
                                     <div className="row">
-                                        <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">newsletter</span>
-                                            <h4 className="text-heading-2 mb-10 mt-10">Subscribe to our newsletter</h4>
-                                            <p className="text-body-text color-gray-500">By clicking the button, you are agreeing with our</p>
-                                            <Link href="/page-terms"><a>Terms &amp; Conditions
-                                            </a></Link>
+                                        <div className="col-lg-5 col-md-7"><span className="text-body-capitalized color-gray-500 text-uppercase">Enroll Now</span>
+                                            <h4 className="text-heading-2 mb-10 mt-10">Start Learning Today</h4>
+                                            <p className="text-body-text color-gray-500">Sign up below to start learning with English Horizons</p>
+
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you email .." /><button className="btn btn-send" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">

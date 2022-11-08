@@ -9,15 +9,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <span className="color-gray-400 text-body-lead">© English Horizons {new Date().getFullYear()}</span>
-                                <Link href="/page-terms">
-                                    <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
-                                </Link>
-                                <Link href="/page-terms">
-                                    <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link>
-                                <Link href="/page-terms">
-                                    <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
-                                </Link>
+
                             </div>
                             <div className="col-md-6 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
