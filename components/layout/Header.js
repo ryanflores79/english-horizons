@@ -23,7 +23,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="English Horizons" src="/assets/imgs/template/logo-white.svg" /> : <img alt="English Horizons" src="/assets/imgs/template/logo.svg" />}
+                                        {headerStyle ? <img alt="English Horizons" src="/assets/imgs/template/logo.png" /> : <img alt="English Horizons" src="/assets/imgs/template/logo.png" />}
 
                                     </a>
                                 </Link>
