@@ -1,5 +1,9 @@
 # README #
 
+## Deploy to Google Cloud Run
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###

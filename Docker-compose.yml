@@ -1,9 +1,13 @@
-version: '3'
+version: "3.5"
+
 services:
-  app:
+  nextjs:
+    #image: ${IMAGE_URL}:${VERSION}
+    command: npm run-script dev
     build:
-      context: ./
-    volumes:
-      - .:/app
+      context: .
     ports:
       - "3000:3000"
+
+volumes:
+  node_modules:
