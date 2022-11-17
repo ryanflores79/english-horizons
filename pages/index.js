@@ -93,7 +93,7 @@ function Home() {
                             <div className="col-lg-6 col-sm-12 block-img-we-do">
                                 <div className="inner-image"><img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-2.png" alt="English Horizons" /></div>
                             </div>
-                            <div className="col-lg-6 col-sm-12 block-we-do-2"><span className="tag-1 color-orange-900"></span> 
+                            <div className="col-lg-6 col-sm-12 block-we-do-2">
                                 <h3 className="text-heading-1 mt-30">Helping you achieve your goals</h3>
                                 <div className="list-icons mt-50">
                                     <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
