@@ -2,11 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
 import GetStartedModal from "../components/elements/GetStartedModal";
 import Layout from "../components/layout/Layout";
-
+import img2 from '../public/assets/imgs/page/homepage2/img-2.png';
 function Home() {
     const [modalFormOpen, setModalFormOpen] = useState(false);
 
@@ -43,7 +44,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <img className="img-responsive shape-2" alt="English Horizons" src="assets/imgs/page/homepage4/banner.png" />
+                                        <img className="img-responsive shape-2" alt="English classes" src="/assets/imgs/page/homepage4/banner.png" />
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +92,7 @@ function Home() {
                     <div className="container mt-90">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <div className="inner-image"><img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage2/img-2.png" alt="English Horizons" /></div>
+                                <div className="inner-image"><Image className="bdrd-16 img-responsive" src={img2} alt="English tutoring" /></div>
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do-2">
                                 <h3 className="text-heading-1 mt-30">Helping you achieve your goals</h3>

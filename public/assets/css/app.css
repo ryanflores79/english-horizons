@@ -22353,6 +22353,12 @@ label {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+.footer .footer-bottom .icon-socials.icon-whatsapp {
+  background: url('/assets/imgs/social/whatsapp.svg')
+    no-repeat 0px 0px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
 .footer .footer-bottom .icon-socials.icon-twitter:hover {
   opacity: 0.8;
   -webkit-transition-duration: 0.2s;

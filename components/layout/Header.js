@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import GetStartedModal from "../elements/GetStartedModal";
+import logoImg from '../../public/assets/imgs/template/logo.png'
 
 const Header = ({ handleOpen, headerStyle }) => {
     const [scroll, setScroll] = useState(0)
@@ -23,7 +25,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="English Horizons" src="/assets/imgs/template/logo.png" /> : <img alt="English Horizons" src="/assets/imgs/template/logo.png" />}
+                                        {headerStyle ? <Image alt="English Horizons" src={logoImg} /> : <img alt="English Horizons" src="/assets/imgs/template/logo.png" />}
 
                                     </a>
                                 </Link>
