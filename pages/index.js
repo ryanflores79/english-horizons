@@ -61,7 +61,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/private-english-lessons.svg" alt="English Horizons" /></div>
                                         <h4 className="text-heading-4">Private Lessons</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Our certified native-English speaking teachers don’t just teach, they mentor you. Your Teacher will keep you motivated to achieve results fast.</p>
                                     </div>
@@ -70,7 +70,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/group-english-lessons.svg" alt="English Horizons" /></div>
                                         <h4 className="text-heading-4">Group classes</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Join live sessions with small groups at your level to further practice English conversations in real-life scenarios and apply all you have learned.</p>
                                     </div>
@@ -79,7 +79,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/learn-english.svg" alt="English Horizons" /></div>
                                         <h4 className="text-heading-4">Interactive tools</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Sharpen your learning with access to interactive lessons designed to help you achieve your personal goals. Make progress fast at home.</p>
                                     </div>
@@ -189,7 +189,7 @@ function Home() {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1"><img src="/assets/imgs/template/chart.png" alt="English Horizons" /></div><img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="English Horizons" />
+                                            <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="English Horizons" />
                                         </div>
                                     </div>
                                 </div>

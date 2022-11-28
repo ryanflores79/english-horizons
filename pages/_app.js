@@ -6,11 +6,12 @@ import 'react-modal-video/css/modal-video.css';
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
+    /*
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
-
+    */
     if (typeof window !== "undefined") {
       window.WOW = require("wowjs");
     }
