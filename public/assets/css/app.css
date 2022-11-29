@@ -16007,6 +16007,9 @@ input.qty-val {
   font-size: 1.4rem;
   text-shadow: 1px 0px 2px rgb(0 0 0 / 50%);
 }
-.carousel-caption {
-  bottom: 3.25rem;
+
+@media (min-width: 980px) {
+  .carousel-caption {
+    bottom: 3.25rem;
+  }
 }
