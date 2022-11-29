@@ -1,3 +1,5 @@
+// add bootstrap css
+import 'bootstrap/dist/css/bootstrap.css'
 import '../public/assets/css/app.css'
 import "../public/assets/css/swiper-custom.css";
 import React, { useEffect, useState } from "react";
