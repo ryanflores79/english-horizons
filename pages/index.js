@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Head from 'next/head'
 import Image from "next/image";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
@@ -19,6 +20,10 @@ function Home() {
 
     return (
         <>
+            <Head>
+              <title>English Lessons Online | #1 Online English Course | English Horizons</title>
+              <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Layout>
                 <section className="section-box">
                     <div className="banner-hero banner-4">
@@ -191,7 +196,7 @@ function Home() {
 
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you email .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you email .." /><button className="btn btn-send" aria-label="Email Signup" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
