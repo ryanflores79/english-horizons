@@ -7,7 +7,12 @@ import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
 import GetStartedModal from "../components/elements/GetStartedModal";
 import Layout from "../components/layout/Layout";
-import img2 from '../public/assets/imgs/page/homepage2/img-2.png';
+import img2 from '../public/assets/imgs/learn-to-speak-english-online.webp';
+import user1 from '../public/assets/imgs/English-tutoring.webp';
+import user2 from '../public/assets/imgs/Online-Enlglish-class.webp';
+import user3 from '../public/assets/imgs/English-student.webp';
+import user4 from '../public/assets/imgs/English-course.webp';
+
 function Home() {
     const [modalFormOpen, setModalFormOpen] = useState(false);
 
@@ -44,7 +49,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <img className="img-responsive shape-2" alt="English classes" src="/assets/imgs/page/homepage4/banner.png" />
+                                        <img className="img-responsive shape-2" alt="English classes" src="/assets/imgs/free-online-english-classes.webp" />
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +97,7 @@ function Home() {
                     <div className="container mt-90">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <div className="inner-image"><img className="bdrd-16 img-responsive" src="/assets/imgs/page/homepage2/img-2.png" alt="English Horizons" /></div>
+                                <div className="inner-image"><Image className="bdrd-16 img-responsive" src={img2} alt="learn to speak English online" /></div>
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do-2">
                                 <h3 className="text-heading-1 mt-30">Helping you achieve your goals</h3>
@@ -131,7 +136,7 @@ function Home() {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">“The biggest challenge for me a student is English. So, I registered for this English course to develop my language skills, namely listening and speaking in order to pass my IELTS exam"</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-1.png" alt="English Horizons" /></div>
+                                                <div className="img-user img-user-round"><Image src={user1} alt="English tutoring" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
                                                 <p className="text-body-text-md">Passed the IELTS Exam.</p>
                                             </div>
@@ -141,7 +146,7 @@ function Home() {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">“I am Sarah, a university student from Morocco and an Arabic language teacher. I got acquainted with our good professor Ken, who helped me a lot in progressing, understanding, and improving English pronunciation."</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-2.png" alt="English Horizons" /></div>
+                                                <div className="img-user img-user-round"><Image src={user2} alt="Online English class" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Sarah</h4>
                                                 <p className="text-body-text-md">Former Student</p>
                                             </div>
@@ -151,7 +156,7 @@ function Home() {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">“This course is second to none since it shows professionalism in everything being done throughout the whole class"</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-3.png" alt="English Horizons" /></div>
+                                                <div className="img-user img-user-round"><Image src={user3} alt="English Horizons" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
                                                 <p className="text-body-text-md">English Student</p>
                                             </div>
@@ -161,7 +166,7 @@ function Home() {
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
                                             <p className="text-body-text color-gray-600 text-comment">“Mr ken is the best English teacher in the world”</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-4.png" alt="English Horizons" /></div>
+                                                <div className="img-user img-user-round"><Image src={user4} alt="Best online English course" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Former Student</h4>
                                                 <p className="text-body-text-md">Passed the TOEFL Exam</p>
                                             </div>
@@ -189,7 +194,7 @@ function Home() {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="English Horizons" />
+                                            <img className="img-responsive img-newsletter" src="assets/imgs/english-tutor-online.webp" alt="English Tutor Online" />
                                         </div>
                                     </div>
                                 </div>
