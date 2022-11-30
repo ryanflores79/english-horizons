@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../public/assets/css/app.css'
 import "../public/assets/css/swiper-custom.css";
 import React, { useEffect, useState } from "react";
