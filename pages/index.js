@@ -50,7 +50,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <img className="img-responsive shape-2" alt="English classes" src="/assets/imgs/free-online-english-classes.webp" />
+                                        <img className="img-responsive shape-2" width="526" height="595" alt="English classes" src="/assets/imgs/free-online-english-classes.webp" />
                                     </div>
                                 </div>
                             </div>
