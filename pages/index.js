@@ -5,55 +5,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import 'react-modal-video/css/modal-video.css';
-import Carousel from 'react-bootstrap/Carousel';
 import GetStartedModal from "../components/elements/GetStartedModal";
 import Layout from "../components/layout/Layout";
 import img2 from '../public/assets/imgs/page/homepage2/img-2.png';
-const data = [
-  {
-    image: '/assets/imgs/homeslider/1.jpg',
-    caption:"Speak English Fluently",
-    description:"Get Started Today"
-  },
-  {
-    image: '/assets/imgs/homeslider/2.jpg',
-    caption:"Online Zoom Lessons",
-    description:"Learn English from Home"
-   },
-   {
-    image: '/assets/imgs/homeslider/3.jpg',
-    caption:"Private or Group Lessons Available",
-    description:"Get Started Now"
-   }
-];
-
 function Home() {
     const [modalFormOpen, setModalFormOpen] = useState(false);
-    const [index, setIndex] = useState(0);
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
+
     return (
         <>
             <Layout>
-
-                <Carousel activeIndex={index} onSelect={handleSelect}>
-                   {data.map((slide, i) => {
-                    return (
-                      <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={slide.image}
-                      alt="slider image"
-                    />
-                    <Carousel.Caption>
-                      <h3>{slide.caption}</h3>
-                      <p>{slide.description}</p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                    )
-                  })}
-                </Carousel>
                 <section className="section-box">
                     <div className="banner-hero banner-4">
                         <div className="container">
