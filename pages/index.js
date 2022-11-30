@@ -61,7 +61,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/private-english-lessons.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15 gray-circle-icon"><img src="/assets/icons/private-english-lessons.svg" alt="Zoom English Lessons" /></div>
                                         <h4 className="text-heading-4">Private Lessons</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Our certified native-English speaking teachers don’t just teach, they mentor you. Your Teacher will keep you motivated to achieve results fast.</p>
                                     </div>
@@ -70,7 +70,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/group-english-lessons.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15 gray-circle-icon"><img src="/assets/icons/group-english-lessons.svg" alt="Group English Lessons" /></div>
                                         <h4 className="text-heading-4">Group classes</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Join live sessions with small groups at your level to further practice English conversations in real-life scenarios and apply all you have learned.</p>
                                     </div>
@@ -79,7 +79,7 @@ function Home() {
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
-                                        <div className="mb-15"><img style={{width: 80}} src="/assets/icons/learn-english.svg" alt="English Horizons" /></div>
+                                        <div className="mb-15 gray-circle-icon"><img src="/assets/icons/learn-english.svg" alt="Online English lessons" /></div>
                                         <h4 className="text-heading-4">Interactive tools</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Sharpen your learning with access to interactive lessons designed to help you achieve your personal goals. Make progress fast at home.</p>
                                     </div>
@@ -97,15 +97,15 @@ function Home() {
                             <div className="col-lg-6 col-sm-12 block-we-do-2">
                                 <h3 className="text-heading-1 mt-30">Helping you achieve your goals</h3>
                                 <div className="list-icons mt-50">
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left gray-circle-icon"><img src="/assets/icons/english-school.svg" alt="English School" /></span>
                                         <h4 className="text-heading-4">About English Horizions</h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">English Horizons is an English Language Educational Institute that specializes in helping non-native English speakers achieve greater English fluency. We offer group classes, one on one sessions, and both in-person and virtual learning.</p>
                                     </div>
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left gray-circle-icon"><img src="/assets/icons/english-teacher.svg" alt="English Teacher Online" /></span>
                                         <h4 className="text-heading-4">Meet Ken Rogers</h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">Our founder, Ken Rogers is a native English speaker who has a passion for helping students from all over the world. He holds a bachelor's degree in Political Theory from the University of California San Diego, and he studied Law at Thomas Jefferson School of Law.</p>
                                     </div>
-                                    <div className="item-icon none-bd hover-up"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="English Horizons" /></span>
+                                    <div className="item-icon none-bd hover-up"><span className="icon-left gray-circle-icon"><img src="/assets/icons/english-exam-prep.svg" alt="English exam prep" /></span>
                                         <h4 className="text-heading-4">IELTS and TOEFL Exam Prep</h4>
                                         <p className="text-body-excerpt color-gray-600 mt-15">Receive focused instruction on all four modules (listening, reading, writing, speaking)</p>
                                     </div>

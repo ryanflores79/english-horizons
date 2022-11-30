@@ -26823,3 +26823,15 @@ input.qty-val {
     margin-top: 100px;
   }
 }
+.gray-circle-icon {
+  width: 64px;
+  height: 64px;
+  background: #E4E7EB;
+  padding: 17px;
+  border-radius: 50%;
+}
+.gray-circle-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
