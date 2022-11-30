@@ -25,7 +25,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <Image alt="English Horizons" src={logoImg} /> : <img alt="English Horizons" src="/assets/imgs/template/logo.png" />}
+                                        {headerStyle ? <Image alt="English Horizons" src={logoImg} /> : <Image alt="English Horizons" src={logoImg} />}
 
                                     </a>
                                 </Link>

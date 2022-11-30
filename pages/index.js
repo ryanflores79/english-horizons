@@ -12,6 +12,7 @@ import user1 from '../public/assets/imgs/English-tutoring.webp';
 import user2 from '../public/assets/imgs/Online-Enlglish-class.webp';
 import user3 from '../public/assets/imgs/English-student.webp';
 import user4 from '../public/assets/imgs/English-course.webp';
+import newsletter from '../public/assets/imgs/english-tutor-online.webp';
 
 function Home() {
     const [modalFormOpen, setModalFormOpen] = useState(false);
@@ -194,7 +195,7 @@ function Home() {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <img className="img-responsive img-newsletter" src="assets/imgs/english-tutor-online.webp" alt="English Tutor Online" />
+                                            <Image className="img-responsive img-newsletter" src={newsletter} alt="Free English Lessons" />
                                         </div>
                                     </div>
                                 </div>
