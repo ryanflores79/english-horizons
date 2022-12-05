@@ -31,7 +31,7 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-7">
                                     <h1 className="text-display-2 color-white">Gain Confidence in English</h1>
-                                    <p className="text-body-lead-large color-white mt-30 pr-40">Online or In-Person English classes & teachers for private and group lessons</p>
+                                    <p className="text-body-lead-large color-white mt-30 pr-40">Online English Classes &amp; teachers for private and group lessons</p>
                                     <div className="mt-40">
                                         <button onClick={() => setModalFormOpen(true)} className="btn btn-pink icon-arrow-right-white text-heading-6">Get Started
                                         </button>
@@ -40,11 +40,11 @@ function Home() {
                                         <div className="row">
                                             <div className="col-lg-3 col-sm-4 col-4">
                                                 <h3 className="text-heading-2 color-white mb-15"></h3>
-                                                <p className="text-body-normal color-gray-300">In Person & Virtual Learning</p>
+                                                <p className="text-body-normal color-gray-300">Real-time virtual Learning</p>
                                             </div>
                                             <div className="col-lg-3 col-sm-4 col-4">
                                                 <h3 className="text-heading-2 color-white mb-15"></h3>
-                                                <p className="text-body-normal color-gray-300">One on One Lessons & Group Classes</p>
+                                                <p className="text-body-normal color-gray-300">1-on-1 Lessons &amp; Group Classes</p>
                                             </div>
                                             <div className="col-lg-3 col-sm-4 col-4">
                                                 <h3 className="text-heading-2 color-white mb-15"></h3>
@@ -55,7 +55,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <img className="img-responsive shape-2" width="526" height="595" alt="English classes" src="/assets/imgs/free-online-english-classes.webp" />
+                                        <img className="img-responsive shape-2" alt="English classes" src="/assets/imgs/free-online-english-classes.webp" />
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ function Home() {
                                 <div className="list-icons mt-50">
                                     <div className="item-icon none-bd hover-up"><span className="icon-left gray-circle-icon"><img src="/assets/icons/english-school.svg" alt="English School" /></span>
                                         <h4 className="text-heading-4">About English Horizions</h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">English Horizons is an English Language Educational Institute that specializes in helping non-native English speakers achieve greater English fluency. We offer group classes, one on one sessions, and both in-person and virtual learning.</p>
+                                        <p className="text-body-excerpt color-gray-600 mt-15">English Horizons is an English Language Educational Institute that specializes in helping non-native English speakers achieve greater English fluency. We offer group classes and one on one sessions in a convenient online learning environment.</p>
                                     </div>
                                     <div className="item-icon none-bd hover-up"><span className="icon-left gray-circle-icon"><img src="/assets/icons/english-teacher.svg" alt="English Teacher Online" /></span>
                                         <h4 className="text-heading-4">Meet Ken Rogers</h4>

@@ -21231,6 +21231,24 @@ label {
   -webkit-animation: hero-thumb-sm-animation 4s linear infinite alternate;
   animation: hero-thumb-sm-animation 4s linear infinite alternate;
 }
+@media (min-width: 992px) {
+  img.shape-2 {
+    width: 376px;
+    height: 425px;
+  }
+}
+@media (min-width: 1200px) {
+  img.shape-2 {
+    width: 451px;
+    height: 510px;
+  }
+}
+@media (min-width: 1400px) {
+  img.shape-2 {
+    width: 526px;
+    height: 595px;
+  }
+}
 .shape-3 {
   -webkit-animation: hero-thumb-sm-2-animation 4s linear infinite alternate;
   animation: hero-thumb-sm-2-animation 4s linear infinite alternate;
