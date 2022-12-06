@@ -5,7 +5,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
-import ContactForm from "../components/elements/ContactForm";
 import Layout from "../components/layout/Layout";
 import img2 from "../public/assets/imgs/learn-to-speak-english-online.webp";
 import user1 from "../public/assets/imgs/English-tutoring.webp";
@@ -325,15 +324,6 @@ function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="section-box overflow-visible mb-50">
-          <div className="container mt-100">
-            <div className="row">
-              <div className="col-lg-10 mx-auto">
-                <ContactForm />
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ function ContactForm() {
               Contact us
             </span>
             <h2 className="text-heading-3 color-gray-900 mt-10">
-              Have an question?
+              Have a question?
             </h2>
             <p className="text-body-text color-gray-600 mt-20">
               Let us know what you&apos;re thinking
