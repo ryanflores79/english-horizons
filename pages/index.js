@@ -5,8 +5,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
-import "react-modal-video/css/modal-video.css";
-import GetStartedModal from "../components/elements/GetStartedModal";
 import ContactForm from "../components/elements/ContactForm";
 import Layout from "../components/layout/Layout";
 import img2 from "../public/assets/imgs/learn-to-speak-english-online.webp";
@@ -17,8 +15,6 @@ import user4 from "../public/assets/imgs/English-course.webp";
 import newsletter from "../public/assets/imgs/english-tutor-online.webp";
 
 function Home() {
-  const [modalFormOpen, setModalFormOpen] = useState(false);
-
   return (
     <>
       <Head>
@@ -41,12 +37,13 @@ function Home() {
                     lessons
                   </p>
                   <div className="mt-40">
-                    <button
-                      onClick={() => setModalFormOpen(true)}
+                    <a
+                      href="https://school.english-horizons.com/login/signup.php"
+                      target="_blank"
                       className="btn btn-pink icon-arrow-right-white text-heading-6"
                     >
                       Get Started
-                    </button>
+                    </a>
                   </div>
                   <div className="mt-60">
                     <div className="row">
@@ -238,12 +235,13 @@ function Home() {
                   Horizons
                 </p>
                 <div className="mt-40">
-                  <button
-                    onClick={() => setModalFormOpen(true)}
+                  <a
+                    href="https://school.english-horizons.com/login/signup.php"
+                    target="_blank"
                     className="btn btn-default btn-white icon-arrow-right"
                   >
                     Join Now!
-                  </button>
+                  </a>
                 </div>
               </div>
               <div className="col-lg-7">
@@ -356,12 +354,13 @@ function Home() {
                       </p>
 
                       <div className="mt-30">
-                        <button
-                          onClick={() => setModalFormOpen(true)}
+                        <a
+                          href="https://school.english-horizons.com/login/signup.php"
+                          target="_blank"
                           className="btn btn-default btn-white icon-arrow-right"
                         >
                           Join Now!
-                        </button>
+                        </a>
                       </div>
                     </div>
                     <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
@@ -377,11 +376,6 @@ function Home() {
             </div>
           </div>
         </section>
-
-        <GetStartedModal
-          isOpen={modalFormOpen}
-          toggle={() => setModalFormOpen(false)}
-        />
       </Layout>
     </>
   );
