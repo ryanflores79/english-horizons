@@ -40,6 +40,7 @@ function Home() {
                     <a
                       href="https://school.english-horizons.com/login/signup.php"
                       target="_blank"
+                      rel="noreferrer"
                       className="btn btn-pink icon-arrow-right-white text-heading-6"
                     >
                       Get Started
@@ -238,6 +239,7 @@ function Home() {
                   <a
                     href="https://school.english-horizons.com/login/signup.php"
                     target="_blank"
+                    rel="noreferrer"
                     className="btn btn-default btn-white icon-arrow-right"
                   >
                     Join Now!
@@ -357,6 +359,7 @@ function Home() {
                         <a
                           href="https://school.english-horizons.com/login/signup.php"
                           target="_blank"
+                          rel="noreferrer"
                           className="btn btn-default btn-white icon-arrow-right"
                         >
                           Join Now!

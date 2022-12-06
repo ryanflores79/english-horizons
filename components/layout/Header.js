@@ -43,6 +43,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                 <a
                   href="https://school.english-horizons.com/login/signup.php"
                   target="_blank"
+                  rel="noreferrer"
                   className="btn btn-default hover-up icon-arrow-right"
                 >
                   Get Started
