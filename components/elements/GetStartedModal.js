@@ -24,7 +24,7 @@ export default function GetStartedModal({isOpen, toggle}) {
         <Card className=" bg-secondary shadow border-0">
           <CardHeader className=" bg-white pb-5">
             <div className=" text-muted text-center mb-3">
-              <small>Schedule a Free Lesson. Try a Lesson First. Make a Decision Later.</small>
+              <small>Schedule a Lesson.</small>
             </div>
           </CardHeader>
           <CardBody className=" px-lg-5 py-lg-5">
