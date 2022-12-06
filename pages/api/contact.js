@@ -14,7 +14,7 @@ const sendContactMail = async (req, res) => {
   `;
 
   const data = {
-    to: "ryanflores79@gmail.com",//process.env.CONTACT_EMAIL,
+    to: process.env.TO_EMAIL,
     from: process.env.CONTACT_EMAIL,
     subject: `New message from ${body.name}`,
     text: message,
