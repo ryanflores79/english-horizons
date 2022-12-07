@@ -38,8 +38,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                   </a>
                 </Link>
               </div>
+              <SiteTranslator
+                includedLanguages="hi,ar,fr,es,de,en,pt,tr"
+                id="google-translator-1"
+              />
             </div>
-            <SiteTranslator id="google-translator-1" />
             <div className="header-right">
               <div className="block-signin">
                 <a

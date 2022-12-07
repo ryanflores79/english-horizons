@@ -26866,3 +26866,11 @@ input.qty-val {
 #google-translator-1 .goog-te-gadget img {
   visibility: hidden;
 }
+@media (max-width: 767px) {
+  #google-translator-1 {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0;
+  }
+}
