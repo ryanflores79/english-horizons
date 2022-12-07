@@ -26858,5 +26858,11 @@ input.qty-val {
   height: 100%;
 }
 #google-translator-1 {
-  margin-right: 10px;  
+  margin-right: 10px;
+}
+#google-translator-1 .goog-te-gadget-simple {
+  border: 0 none;
+}
+#google-translator-1 .goog-te-gadget img {
+  visibility: hidden;
 }
