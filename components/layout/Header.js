@@ -39,7 +39,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </Link>
               </div>
               <SiteTranslator
-                includedLanguages="hi,ar,fr,es,de,en,pt,tr"
+                includedLanguages="hi,ar,fr,es,de,en,pt,tr,zh-CN,ms,cmn,ru,cn"
                 id="google-translator-1"
               />
             </div>
