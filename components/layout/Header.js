@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import logoImg from "../../public/assets/imgs/template/logo.png";
+import SiteTranslator from "../elements/SiteTranslator";
 
 const Header = ({ handleOpen, headerStyle }) => {
   const [scroll, setScroll] = useState(0);
@@ -38,6 +39,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </Link>
               </div>
             </div>
+            <SiteTranslator id="google-translator-1" />
             <div className="header-right">
               <div className="block-signin">
                 <a
