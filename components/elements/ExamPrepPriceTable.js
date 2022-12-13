@@ -62,6 +62,7 @@ const ExamPrepPriceTable = () => {
                             : "https://square.link/u/GVBZdNnR"
                         }
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
@@ -103,6 +104,7 @@ const ExamPrepPriceTable = () => {
                             : "https://square.link/u/Pvkimybe"
                         }
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started

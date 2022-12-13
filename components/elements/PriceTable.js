@@ -37,6 +37,7 @@ const PriceTable = () => {
                       <a
                         href="https://square.link/u/t86rM6Ye"
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
@@ -73,6 +74,7 @@ const PriceTable = () => {
                       <a
                         href="https://square.link/u/ehpSDUO6"
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
@@ -109,6 +111,7 @@ const PriceTable = () => {
                       <a
                         href="https://square.link/u/dkwfdW8Z"
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
@@ -145,6 +148,7 @@ const PriceTable = () => {
                       <a
                         href="https://square.link/u/NKiwQUCa"
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
