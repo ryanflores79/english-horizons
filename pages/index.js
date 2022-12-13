@@ -6,6 +6,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
+import PriceTable from "../components/elements/PriceTable";
+import ExamPrepPriceTable from "../components/elements/ExamPrepPriceTable";
 import img2 from "../public/assets/imgs/learn-to-speak-english-online.webp";
 import user1 from "../public/assets/imgs/English-tutoring.webp";
 import user2 from "../public/assets/imgs/Online-Enlglish-class.webp";
@@ -36,8 +38,7 @@ function Home() {
                   </p>
                   <div className="mt-40">
                     <a
-                      href="https://school.english-horizons.com/login/signup.php"
-                      target="_blank"
+                      href="#pricing"
                       rel="noreferrer"
                       className="btn btn-pink icon-arrow-right-white text-heading-6"
                     >
@@ -235,8 +236,7 @@ function Home() {
                 </p>
                 <div className="mt-40">
                   <a
-                    href="https://school.english-horizons.com/login/signup.php"
-                    target="_blank"
+                    href="#pricing"
                     rel="noreferrer"
                     className="btn btn-default btn-white icon-arrow-right"
                   >
@@ -327,6 +327,21 @@ function Home() {
             </div>
           </div>
         </section>
+
+        <section id="pricing" className="section-box mt-70">
+          <div className="container mt-50">
+            <h3 className="text-heading-1 text-center mb-10">
+              English Classes
+            </h3>
+          </div>
+          <PriceTable />
+
+          <div className="container mt-50">
+            <h3 className="text-heading-1 text-center mb-10">Exam Prep</h3>
+          </div>
+          <ExamPrepPriceTable />
+        </section>
+
         <section className="section-box overflow-visible mb-100">
           <div className="container mt-100">
             <div className="row">
@@ -346,8 +361,7 @@ function Home() {
 
                       <div className="mt-30">
                         <a
-                          href="https://school.english-horizons.com/login/signup.php"
-                          target="_blank"
+                          href="#pricing"
                           rel="noreferrer"
                           className="btn btn-default btn-white icon-arrow-right"
                         >

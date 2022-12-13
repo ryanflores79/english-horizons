@@ -39,15 +39,14 @@ const Header = ({ handleOpen, headerStyle }) => {
                 </Link>
               </div>
               <SiteTranslator
-                includedLanguages="hi,ar,fr,es,de,en,pt,tr,zh-CN,ms,cmn,ru,cn"
+                includedLanguages="hi,ar,fr,es,de,en,pt,tr,zh-CN,ms,cmn,ur,cn"
                 id="google-translator-1"
               />
             </div>
             <div className="header-right">
               <div className="block-signin">
                 <a
-                  href="https://school.english-horizons.com/login/signup.php"
-                  target="_blank"
+                  href="#pricing"
                   rel="noreferrer"
                   className="btn btn-default hover-up icon-arrow-right"
                 >
