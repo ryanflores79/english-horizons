@@ -12,10 +12,21 @@ const Footer = () => {
                   &copy; {new Date().getFullYear()} English Horizons LLC
                 </span>
                 <Link href="/">
-                    <a className="text-body-text color-gray-400 ml-50">Home</a>
+                  <a className="text-body-text color-gray-400 ml-50">Home</a>
                 </Link>
                 <Link href="/contact">
-                    <a className="text-body-text color-gray-400 ml-50">Contact Us</a>
+                  <a className="text-body-text color-gray-400 ml-50">
+                    Contact Us
+                  </a>
+                </Link>
+                <Link
+                  href="https://paypal.me/EnglishHorizons"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <a className="text-body-text color-gray-400 ml-50">
+                    Paypal
+                  </a>
                 </Link>
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
