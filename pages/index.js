@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import PriceTable from "../components/elements/PriceTable";
 import ExamPrepPriceTable from "../components/elements/ExamPrepPriceTable";
@@ -15,6 +15,7 @@ import user3 from "../public/assets/imgs/English-student.webp";
 import user4 from "../public/assets/imgs/English-course.webp";
 
 function Home() {
+  const [paypalAmount, setPaypalAmount] = useState("");
   return (
     <>
       <Head>
@@ -340,6 +341,48 @@ function Home() {
             <h3 className="text-heading-1 text-center mb-10">Exam Prep</h3>
           </div>
           <ExamPrepPriceTable />
+        </section>
+
+        <section className="section-box">
+          <div className="container box-reset">
+            <div className="row">
+              <div className="col-lg-12 col-md-12">
+                <div className="box-signup mt-90">
+                  <h1 className="text-heading-3 mb-15 text-center">
+                    Or Pay with PayPal
+                  </h1>
+                  <div className="text-center mb-50">
+                    <p className="text-body-text color-gray-500">
+                      Enter the amount.
+                    </p>
+                  </div>
+                  <div className="box-form-signup">
+                    <div className="form-group">
+                      <div className="form-field">
+                        <input
+                          onChange={(e) => setPaypalAmount(e.target.value)}
+                          className="form-control input-green-bd input-with-icon"
+                          placeholder="Enter amount"
+                        />
+                      </div>
+                    </div>
+                    <div className="form-group">
+                      <button
+                        onClick={(e) => {
+                          window.location.href =
+                            "https://www.paypal.com/paypalme/EnglishHorizons/" +
+                            paypalAmount;
+                        }}
+                        className="btn btn-green-full text-heading-6"
+                      >
+                        PayPal
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="section-box overflow-visible mb-100">

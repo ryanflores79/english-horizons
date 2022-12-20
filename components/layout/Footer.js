@@ -19,15 +19,6 @@ const Footer = () => {
                     Contact Us
                   </a>
                 </Link>
-                <Link
-                  href="https://paypal.me/EnglishHorizons"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <a className="text-body-text color-gray-400 ml-50">
-                    Paypal
-                  </a>
-                </Link>
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
                 <div className="footer-social">
