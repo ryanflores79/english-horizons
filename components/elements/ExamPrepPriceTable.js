@@ -59,7 +59,7 @@ const ExamPrepPriceTable = () => {
                         href={
                           isToggled
                             ? "https://square.link/u/cREjquaH"
-                            : "https://square.link/u/GVBZdNnR"
+                            : "https://square.link/u/N5KLwk5O"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -115,7 +115,7 @@ const ExamPrepPriceTable = () => {
                         href={
                           isToggled
                             ? "https://square.link/u/KslBBWTw"
-                            : "https://square.link/u/Pvkimybe"
+                            : "https://square.link/u/84z9GL8T"
                         }
                         target="_blank"
                         rel="noreferrer"
