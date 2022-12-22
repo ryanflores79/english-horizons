@@ -68,7 +68,7 @@ const ExamPrepPriceTable = () => {
                         Get Started
                       </a>
                     </div>
-                    <div class="d-grid gap-2">
+                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
@@ -124,7 +124,7 @@ const ExamPrepPriceTable = () => {
                         Get Started
                       </a>
                     </div>
-                    <div class="d-grid gap-2">
+                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
