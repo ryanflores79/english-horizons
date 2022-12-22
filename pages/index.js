@@ -44,6 +44,14 @@ function Home() {
                     >
                       Get Started
                     </a>
+                    <a
+                      href="https://school.english-horizons.com/login/index.php"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="school-login-button btn btn-white icon-arrow-right text-heading-6"
+                    >
+                      Log in
+                    </a>
                   </div>
                   <div className="mt-60">
                     <div className="row">

@@ -20,12 +20,12 @@ const Footer = () => {
                   </a>
                 </Link>
                 <Link
-                  href="https://paypal.me/EnglishHorizons"
+                  href="https://school.english-horizons.com/login/index.php"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <a className="text-body-text color-gray-400 ml-50">
-                    Paypal
+                    Login
                   </a>
                 </Link>
               </div>

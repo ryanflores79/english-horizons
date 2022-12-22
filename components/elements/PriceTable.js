@@ -43,6 +43,16 @@ const PriceTable = () => {
                         Get Started
                       </a>
                     </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7G382222GT667140GMORYP7I"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -78,6 +88,16 @@ const PriceTable = () => {
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
+                      </a>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0MB00853HH786653BMORYYSA"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
                       </a>
                     </div>
                   </div>
@@ -117,6 +137,16 @@ const PriceTable = () => {
                         Get Started
                       </a>
                     </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6S807435NW933951GMORYZLQ"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -152,6 +182,16 @@ const PriceTable = () => {
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
+                      </a>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-51T504437E9008052MORY2WA"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
                       </a>
                     </div>
                   </div>

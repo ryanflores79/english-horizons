@@ -68,6 +68,20 @@ const ExamPrepPriceTable = () => {
                         Get Started
                       </a>
                     </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href={
+                          isToggled
+                            ? "https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7GW35326N5221520VMOR2EEA"
+                            : "https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8ES92617VB237715FMOR2CSY"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -108,6 +122,20 @@ const ExamPrepPriceTable = () => {
                         className="btn btn-black text-body-lead icon-arrow-right-white"
                       >
                         Get Started
+                      </a>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <a
+                        href={
+                          isToggled
+                            ? "https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4TY98058C2988441FMOR2HSA"
+                            : "https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8V136556WB101080AMOR2IIA"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-link text-center"
+                      >
+                        PayPal
                       </a>
                     </div>
                   </div>
