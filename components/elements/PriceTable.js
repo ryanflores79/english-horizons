@@ -46,7 +46,7 @@ const PriceTable = () => {
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7G382222GT667140GMORYP7I"
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>
@@ -91,7 +91,7 @@ const PriceTable = () => {
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0MB00853HH786653BMORYYSA"
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>
@@ -136,7 +136,7 @@ const PriceTable = () => {
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6S807435NW933951GMORYZLQ"
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>
@@ -181,7 +181,7 @@ const PriceTable = () => {
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-51T504437E9008052MORY2WA"
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>

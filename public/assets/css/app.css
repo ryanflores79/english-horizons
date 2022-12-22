@@ -26890,3 +26890,14 @@ input.qty-val {
     margin: 0;
   }
 }
+.btn-paypal {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 12px 22px;
+  cursor: pointer;
+
+}
+.btn-paypal:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}

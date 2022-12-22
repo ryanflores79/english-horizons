@@ -75,7 +75,7 @@ const ExamPrepPriceTable = () => {
                         }
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>
