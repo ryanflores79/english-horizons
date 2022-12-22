@@ -33,7 +33,7 @@ const PriceTable = () => {
                       <li>3 times per week</li>
                       <li>Beginner, Intermediate or Advanced</li>
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href="https://square.link/u/t86rM6Ye"
                         target="_blank"
@@ -42,8 +42,6 @@ const PriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7G382222GT667140GMORYP7I"
                         target="_blank"
@@ -80,7 +78,7 @@ const PriceTable = () => {
                       <li>2 times per week</li>
                       <li>Beginner, Intermediate or Advanced</li>
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href="https://square.link/u/ehpSDUO6"
                         target="_blank"
@@ -89,8 +87,6 @@ const PriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0MB00853HH786653BMORYYSA"
                         target="_blank"
@@ -127,7 +123,7 @@ const PriceTable = () => {
                       <li>1 time per week</li>
                       <li>Beginner, Intermediate or Advanced</li>
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href="https://square.link/u/dkwfdW8Z"
                         target="_blank"
@@ -136,8 +132,6 @@ const PriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6S807435NW933951GMORYZLQ"
                         target="_blank"
@@ -174,7 +168,7 @@ const PriceTable = () => {
                       <li>No commitment</li>
                       <li>Beginner, Intermediate or Advanced</li>
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href="https://square.link/u/NKiwQUCa"
                         target="_blank"
@@ -183,8 +177,6 @@ const PriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-51T504437E9008052MORY2WA"
                         target="_blank"

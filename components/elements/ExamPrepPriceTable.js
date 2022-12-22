@@ -54,7 +54,7 @@ const ExamPrepPriceTable = () => {
                       <li>4.5 hours per week</li>
                       {isToggled && <li>Save $95 by paying upfront</li>}
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
@@ -67,8 +67,6 @@ const ExamPrepPriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
@@ -110,7 +108,7 @@ const ExamPrepPriceTable = () => {
                       <li>4.5 hours per week</li>
                       {isToggled && <li>Save $95 by paying upfront</li>}
                     </ul>
-                    <div>
+                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
@@ -123,8 +121,6 @@ const ExamPrepPriceTable = () => {
                       >
                         Get Started
                       </a>
-                    </div>
-                    <div className="d-grid gap-2">
                       <a
                         href={
                           isToggled
@@ -133,7 +129,7 @@ const ExamPrepPriceTable = () => {
                         }
                         target="_blank"
                         rel="noreferrer"
-                        className="btn btn-link text-center"
+                        className="btn btn-paypal text-body-lead text-center"
                       >
                         PayPal
                       </a>
