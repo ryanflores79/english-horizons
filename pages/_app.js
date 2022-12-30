@@ -33,6 +33,7 @@ function MyApp({ Component, pageProps }) {
         src={`https://www.googletagmanager.com/gtag/js?id=G-PFR969PXSX`}
       />
       <Script
+        id="google-analytics-js-code"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
