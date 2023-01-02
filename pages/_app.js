@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-PFR969PXSX`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-YPMT0TZHDJ`}
       />
       <Script
         id="google-analytics-js-code"
@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-PFR969PXSX', {
+            gtag('config', 'G-YPMT0TZHDJ', {
               page_path: window.location.pathname,
             });
           `,
